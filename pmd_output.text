@@ -1,0 +1,28 @@
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/FileUtilities.cls:13:	ApexCRUDViolation:	Validate CRUD permission before SOQL/DML operation
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/FileUtilities.cls:26:	ApexCRUDViolation:	Validate CRUD permission before SOQL/DML operation
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/FileUtilitiesTest.cls:21:	ApexAssertionsShouldIncludeMessage:	'Assert.isNotNull' should have 2 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/FileUtilitiesTest.cls:41:	ApexAssertionsShouldIncludeMessage:	'Assert.isInstanceOfType' should have 3 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/FileUtilitiesTest.cls:65:	ApexAssertionsShouldIncludeMessage:	'Assert.isInstanceOfType' should have 3 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/FileUtilitiesTest.cls:89:	ApexAssertionsShouldIncludeMessage:	'Assert.isInstanceOfType' should have 3 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/GeocodingService.cls:5:	CognitiveComplexity:	The method 'geocodeAddresses(List<GeocodingAddress>)' has a cognitive complexity of 16, current threshold is 15
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/GeocodingServiceTest.cls:32:	ApexAssertionsShouldIncludeMessage:	'Assert.areEqual' should have 3 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/GeocodingServiceTest.cls:33:	ApexAssertionsShouldIncludeMessage:	'Assert.areEqual' should have 3 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/GeocodingServiceTest.cls:34:	ApexAssertionsShouldIncludeMessage:	'Assert.areEqual' should have 3 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/GeocodingServiceTest.cls:52:	ApexAssertionsShouldIncludeMessage:	'Assert.areEqual' should have 3 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/GeocodingServiceTest.cls:53:	ApexAssertionsShouldIncludeMessage:	'Assert.isNull' should have 2 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/GeocodingServiceTest.cls:54:	ApexAssertionsShouldIncludeMessage:	'Assert.isNull' should have 2 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/GeocodingServiceTest.cls:77:	ApexAssertionsShouldIncludeMessage:	'Assert.areEqual' should have 3 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/GeocodingServiceTest.cls:78:	ApexAssertionsShouldIncludeMessage:	'Assert.isNull' should have 2 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/GeocodingServiceTest.cls:79:	ApexAssertionsShouldIncludeMessage:	'Assert.isNull' should have 2 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/PropertyController.cls:16:	ExcessiveParameterList:	Avoid long parameter lists
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/SampleDataController.cls:15:	ApexCRUDViolation:	Validate CRUD permission before SOQL/DML operation
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/SampleDataController.cls:25:	ApexCRUDViolation:	Validate CRUD permission before SOQL/DML operation
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/SampleDataController.cls:29:	ApexCRUDViolation:	Validate CRUD permission before SOQL/DML operation
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/SampleDataController.cls:40:	ApexCRUDViolation:	Validate CRUD permission before SOQL/DML operation
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/SampleDataController.cls:44:	ApexCRUDViolation:	Validate CRUD permission before SOQL/DML operation
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/SampleDataController.cls:54:	ApexCRUDViolation:	Validate CRUD permission before SOQL/DML operation
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/TestPropertyController.cls:70:	ApexAssertionsShouldIncludeMessage:	'Assert.areEqual' should have 3 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/TestPropertyController.cls:85:	ApexAssertionsShouldIncludeMessage:	'Assert.isNull' should have 2 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/TestPropertyController.cls:118:	ApexAssertionsShouldIncludeMessage:	'Assert.areEqual' should have 3 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/classes/TestPropertyController.cls:119:	ApexAssertionsShouldIncludeMessage:	'Assert.areEqual' should have 3 parameters.
+/home/stephen/Development/Apex/DreamHouse/dreamhouse-lwc/force-app/main/default/triggers/ExampleTrigger.trigger:1:	AvoidLogicInTrigger:	Avoid logic in triggers

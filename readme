@@ -1,0 +1,20 @@
+1) Install from official github dir.
+2) Extract and ensure java and javafx is available.
+3) set up path
+
+--- configure ruleset ---
+
+4) pmd ruleset for apex https://docs.pmd-code.org/pmd-doc-7.16.0/pmd_rules_apex.html
+   $ pmd check -d /some/dir -f text -R apex_ruleset.xml  # -f means output can be html as well
+
+5) pmd, cmd, eslint etc. can be called using sf codeanalyzer plugin 
+## or Using SF CodeAnalyser uses 
+sf code-analyzer rules --rule-selector pmd --view detail
+sf code-analyzer rules --rule-selector pmd --rule-selector therule
+sf code-analyzer run --rule-selector eslint:3 --rule-selector retire-js:Recommended
+
+######## Working with ruleset
+complete reference -  https://docs.pmd-code.org/pmd-doc-7.16.0/pmd_rules_apex.html
+example downloaded from - https://github.com/ChuckJonas/vscode-apex-pmd/blob/master/rulesets/apex_ruleset.xml
+
+
