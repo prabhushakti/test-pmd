@@ -8,10 +8,16 @@ jobs:
       contents: read # Grants permission to check out the repository. Only necessary for private repos.
       actions: read # Grants permission to read the in-progress actions. Only necessary for private repos.
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: temp/unhappy-soup/
     steps:
-      - name: Check out files
-        uses: actions/checkout@v4
-
+#      - name: Check out files
+#        uses: actions/checkout@v4
+#        with:
+#          ref: master
+#          repository: rsoesemann/unhappy-soup
+#          path: 'temp/unhappy-soup'
       # PREREQUISITES - Only needed if the runner doesn't already satisfy these requirements.
       - name: Ensure node v20.9.0 or greater
         uses: actions/setup-node@v4
@@ -22,10 +28,18 @@ jobs:
         with:
           java-version: '>=11'
           distribution: 'zulu'
-      - name: Ensure python v3.10 or greater
-        uses: actions/setup-python@v5
-        with:
-          python-version: '>=3.10'
+#      - name: Ensure python v3.10 or greater
+#        uses: actions/setup-python@v5
+#        with:
+#          python-version: '>=3.10'
+
+      - name: Clone the repo  
+        if: ${{ env.ACT }}
+        run: |
+          - git clone https://github.com/rsoesemann/unhappy-soup.git
+          - pwd
+          - ls
+          - cd unhappy-soup
 
       - name: Install Salesforce CLI
         run: npm install -g @salesforce/cli@latest
@@ -39,7 +53,7 @@ jobs:
         with:
           run-arguments: --workspace . --view detail --output-file sfca_results.html --output-file sfca_results.json
           results-artifact-name: salesforce-code-analyzer-results
-          github-token: ${{ github.token }}
+            #github-token: ${{ github.token }}
 
       - name: Check the Outputs to Determine Whether to Fail
         if: |
